@@ -1,0 +1,23 @@
+.examples .twitter-typeahead {
+    width: 100%;
+  .tt-menu{
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+    background: white;
+  }
+  .tt-suggestion{
+    background: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #e3e3e3;
+    cursor: pointer;
+    &:hover{
+      background: #e3e3e3;
+    }
+  }
+  .tt-cursor{
+    background: #e3e3e3;
+  }
+}

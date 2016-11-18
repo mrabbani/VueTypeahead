@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Vuejs Typeahead </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container" id="app">
+    <h1 class="text-success text-center">Vuejs and Typeahead Example  <a href="https://github.com/mrabbani/VueTypeahead.git" class="pull-right">github source</a> </h1>
+
+    <div class="col-md-8 col-md-offset-2">
+
+        <div class="col-md-12 examples">
+            <h1>Default Suggestion</h1>
+
+            <vue-typeahead
+                    prefetch="https://twitter.github.io/typeahead.js/data/countries.json"
+                    :default-suggestion="true"
+                    classes="form-control"
+                    v-on:selected="done">
+
+            </vue-typeahead>
+            <h4>sample code</h4>
+
+            <pre>
+                &lt;vue-typeahead
+                        prefetch="https://twitter.github.io/typeahead.js/data/countries.json"
+                        :default-suggestion="true"
+                        classes="form-control"
+                        v-on:selected="done"&gt;
+
+                &lt;/vue-typeahead&gt;
+            </pre>
+        </div>
+        <div class="col-md-12 examples">
+            <h1>Local Values as Default Suggestion</h1>
+
+            <vue-typeahead
+                    prefetch="https://twitter.github.io/typeahead.js/data/countries.json"
+                    :default-suggestion="true"
+                    classes="form-control"
+                    :local="localValues"
+                    v-on:selected="done">
+
+            </vue-typeahead>
+            <h4>sample code</h4>
+
+            <pre>
+                &lt;vue-typeahead
+                    prefetch="https://twitter.github.io/typeahead.js/data/countries.json"
+                    :default-suggestion="true"
+                    classes="form-control"
+                    :local="localValues"
+                    v-on:selected="done"&gt;
+
+                &lt;/vue-typeahead&gt;
+            </pre>
+        </div>
+        <div class="col-md-12 examples">
+            <h1>Remote Suggestion</h1>
+            <vue-typeahead
+                    prefetch="https://twitter.github.io/typeahead.js/data/films/post_1960.json"
+                    display-key='value'
+                    classes="form-control"
+                    remote="https://twitter.github.io/typeahead.js/data/films/queries/%QUERY.json'"
+                    v-on:selected="done">
+            </vue-typeahead>
+            <h4>sample code</h4>
+
+            <pre>
+                &lt;vue-typeahead
+                    prefetch="https://twitter.github.io/typeahead.js/data/films/post_1960.json"
+                    display-key='value'
+                    classes="form-control"
+                    remote="https://twitter.github.io/typeahead.js/data/films/queries/%QUERY.json'"
+                    v-on:selected="done"&gt;
+
+                &lt;/vue-typeahead&gt;
+            </pre>
+        </div>
+        <div class="col-md-12 examples">
+            <h1>Custom template</h1>
+            <vue-typeahead v-model="value"
+                           prefetch="https://twitter.github.io/typeahead.js/data/nfl.json"
+                           :default-suggestion="false"
+                           display-key='team'
+                           :suggestion-template="myTemplate"
+                           classes="form-control"
+                           v-on:selected="done">
+
+            </vue-typeahead>
+            <h4>sample code</h4>
+
+            <pre>
+                &lt;vue-typeahead
+                       v-model="value"
+                       prefetch="https://twitter.github.io/typeahead.js/data/nfl.json"
+                       :default-suggestion="false"
+                       display-key='team'
+                       :suggestion-template="myTemplate"
+                       classes="form-control"
+                       v-on:selected="done"&gt;
+
+                &lt;/vue-typeahead&gt;
+            </pre>
+        </div>
+    </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
