@@ -1,5 +1,16 @@
 
-{
+{  
+  "name": "vuejs-typeahead",
+  "version": "0.0.1",
+  "author": "Mahbub Rabbani<mahbub.rucse@gmail.com>",
+  "license": "MIT",
+  "description": "Simple typeahead autocomplete component for Vue.js",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "typeahead",
+    "vujs-autocomplete"
+  ],
   "private": true,
   "scripts": {
     "prod": "gulp --production",
