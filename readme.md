@@ -4,7 +4,7 @@ Hope your are familiar with [node](http://nodejs.org) and able to compile [vuejs
 
 Install [typeahead.js](https://github.com/twitter/typeahead.js) by `npm`
 
-    nmp install typeahead.js --save
+    npm install typeahead.js --save
     
 ## How to Use
 - Copy the `VueTypeahead` component from `resources/assets/js/components` folder into your app director
