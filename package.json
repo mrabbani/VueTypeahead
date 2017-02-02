@@ -1,6 +1,6 @@
 {
   "name": "vuejs-autocomplete",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "mrabbani",
   "license": "MIT",
   "main": "resources/assets/js/components/VueTypeahead.vue",
