@@ -1,10 +1,9 @@
-
-{  
-  "name": "vuejs-typeahead",
+{
+  "name": "vuejs-autocomplete",
   "version": "0.0.1",
   "author": "mrabbani",
-  "license": "MIT",  
-  "main": "./resources/assets/js/components/VueTypeahead.vue",
+  "license": "MIT",
+  "main": "resources/assets/js/components/VueTypeahead.vue",
   "description": "Simple typeahead autocomplete component for Vue.js",
   "keywords": [
     "vue",
@@ -17,9 +16,8 @@
     "dev": "gulp watch"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/mrabbani/VueTypeahead.git"
-},
+    "url": "git+https://github.com/mrabbani/VueTypeahead.git"
+  },
   "devDependencies": {
     "bootstrap-sass": "^3.3.7",
     "gulp": "^3.9.1",
@@ -33,5 +31,12 @@
   },
   "dependencies": {
     "typeahead.js": "^0.11.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mrabbani/VueTypeahead/issues"
+  },
+  "homepage": "https://github.com/mrabbani/VueTypeahead#readme",
+  "directories": {
+    "example": "example"
   }
 }

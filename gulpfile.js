@@ -14,8 +14,6 @@ require('laravel-elixir-vue-2');
  */
 
 elixir(mix => {
- mix.webpack('test.js','resources/assets/js/components/tt.js');
-
     mix.sass('typeahead_suggestion.scss', 'example/css/style.css')
      .webpack('app.js','example/js/app.js');
 });

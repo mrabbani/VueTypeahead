@@ -13,10 +13,8 @@ require('./bootstrap');
  * the application, or feel free to tweak this setup for your needs.
  */
 //
-var MyComponent = require('./test')
-import MyComponent from './test';
-//var MyComponent = require('./components/VueTypeahead.vue')
-//Vue.component('vueTypeahead', require('./components/VueTypeahead.vue'));
+
+var MyComponent = require('./components/VueTypeahead.vue')
 
 Vue.component('vueTypeahead', MyComponent);
 
