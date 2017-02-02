@@ -1,7 +1,9 @@
 # Vuejs  Autocomplete Compopent ([Demo](https://mrabbani.github.io/examples/vue_typeahead))
 
 Hope your are familiar with [node](http://nodejs.org) and able to compile [vuejs](https://vuejs.org/v2/guide/components.html) component.
+
 ## Installation
+
     npm install vuejs-autocomplete --save  
       
 ## Properties
@@ -17,7 +19,6 @@ Hope your are familiar with [node](http://nodejs.org) and able to compile [vuejs
 ## Events
 
 - `selected` : This event is fired when an item is selected and passed as argument.
-
 
 # [Vuejs-autocomplete Example](https://github.com/mrabbani/vuejs-autocomple-example)
 
