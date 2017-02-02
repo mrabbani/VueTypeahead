@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/mahbub/Projects/Analysis/VueTypeahead',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/mahbub/.npm/vuejs-typeahead/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /home/mahbub/.npm correctMkdir not in flight; initializing
+10 info lifecycle vuejs-typeahead@0.0.1~prepublish: vuejs-typeahead@0.0.1
+11 silly lifecycle vuejs-typeahead@0.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/mahbub/.npm/vuejs-typeahead/0.0.1/package.tgz',
+12 verbose tar pack   '/home/mahbub/Projects/Analysis/VueTypeahead' ]
+13 verbose tarball /home/mahbub/.npm/vuejs-typeahead/0.0.1/package.tgz
+14 verbose folder /home/mahbub/Projects/Analysis/VueTypeahead
+15 verbose addLocalTarball adding from inside cache /home/mahbub/.npm/vuejs-typeahead/0.0.1/package.tgz
+16 verbose correctMkdir /home/mahbub/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd vuejs-typeahead@0.0.1
+18 verbose afterAdd /home/mahbub/.npm/vuejs-typeahead/0.0.1/package/package.json not in flight; writing
+19 verbose correctMkdir /home/mahbub/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/mahbub/.npm/vuejs-typeahead/0.0.1/package/package.json written
+21 silly publish { name: 'vuejs-typeahead',
+21 silly publish   version: '0.0.1',
+21 silly publish   author: { name: 'mrabbani' },
+21 silly publish   license: 'MIT',
+21 silly publish   main: './resources/assets/js/components/VueTypeahead.vue',
+21 silly publish   description: 'Simple typeahead autocomplete component for Vue.js',
+21 silly publish   keywords: [ 'vue', 'vuejs', 'typeahead', 'vujs-autocomplete' ],
+21 silly publish   scripts: { prod: 'gulp --production', dev: 'gulp watch' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/mrabbani/VueTypeahead.git' },
+21 silly publish   devDependencies:
+21 silly publish    { 'bootstrap-sass': '^3.3.7',
+21 silly publish      gulp: '^3.9.1',
+21 silly publish      jquery: '^3.1.0',
+21 silly publish      'laravel-elixir': '^6.0.0-14',
+21 silly publish      'laravel-elixir-vue-2': '^0.2.0',
+21 silly publish      'laravel-elixir-webpack-official': '^1.0.2',
+21 silly publish      lodash: '^4.16.2',
+21 silly publish      vue: '^2.0.1',
+21 silly publish      'vue-resource': '^1.0.3' },
+21 silly publish   dependencies: { 'typeahead.js': '^0.11.1' },
+21 silly publish   readme: '# Vuejs and typeahead auto complete\n\nHope your are familiar with [node](http://nodejs.org) and able to compile [vuejs](http://vuejs.org) app.\n\nInstall [typeahead.js](https://github.com/twitter/typeahead.js) by `npm`\n\n    npm install typeahead.js --save\n    \n## How to Use\n- Copy the `VueTypeahead` component from `resources/assets/js/components` folder into your app director\n- Register `VueTypeahead` component into your app\n- Compile Your Vuejs app\n\n#### [Demo](https://mrabbani.github.io/examples/vue_typeahead)\n\n\n\n\n',
+21 silly publish   readmeFilename: 'readme.md',
+21 silly publish   gitHead: '1bed542fcf26f5870534643a2b6a5c8af5f8961b',
+21 silly publish   bugs: { url: 'https://github.com/mrabbani/VueTypeahead/issues' },
+21 silly publish   homepage: 'https://github.com/mrabbani/VueTypeahead#readme',
+21 silly publish   _id: 'vuejs-typeahead@0.0.1',
+21 silly publish   _shasum: 'bff155b4035c43879c218c4395372338eeb3a750',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name vuejs-typeahead
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'vuejs-typeahead',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'vuejs-typeahead',
+26 silly mapToRegistry   name: 'vuejs-typeahead',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/vuejs-typeahead
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /home/mahbub/.npm/vuejs-typeahead/0.0.1/package.tgz
+30 verbose request uri https://registry.npmjs.org/vuejs-typeahead
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 2:33:09 PM
+33 verbose request using bearer token for auth
+34 verbose request id c15263ce9024dd9c
+35 http request PUT https://registry.npmjs.org/vuejs-typeahead
+36 http 403 https://registry.npmjs.org/vuejs-typeahead
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '109',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Thu, 02 Feb 2017 08:33:11 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-cdg8726-CDG',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1486024390.410484,VS0,VE1334',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /home/mahbub/.npm/registry.npmjs.org/vuejs-typeahead on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: you do not have permission to publish "vuejs-typeahead". Are you logged in as the correct user? : vuejs-typeahead
+40 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid vuejs-typeahead
+43 verbose cwd /home/mahbub/Projects/Analysis/VueTypeahead
+44 error Linux 4.4.0-59-generic
+45 error argv "/usr/bin/nodejs" "/usr/bin/npm" "publish"
+46 error node v6.9.4
+47 error npm  v3.10.10
+48 error code E403
+49 error you do not have permission to publish "vuejs-typeahead". Are you logged in as the correct user? : vuejs-typeahead
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
