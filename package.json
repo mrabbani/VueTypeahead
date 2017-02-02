@@ -3,7 +3,8 @@
   "name": "vuejs-typeahead",
   "version": "0.0.1",
   "author": "Mahbub Rabbani<mahbub.rucse@gmail.com>",
-  "license": "MIT",
+  "license": "MIT",  
+  "main": "./resources/assets/js/components/VueTypeahead.vue",
   "description": "Simple typeahead autocomplete component for Vue.js",
   "keywords": [
     "vue",
