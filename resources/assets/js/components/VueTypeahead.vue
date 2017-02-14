@@ -188,6 +188,7 @@
           name: 'Typeahead-Suggestion',
           display: this.displayKey,
           source: this.getSource(),
+          limit: Infinity,
           templates
         };
         $(document).find('#' + self.id).typeahead({
