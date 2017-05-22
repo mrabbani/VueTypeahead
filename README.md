@@ -1,4 +1,4 @@
-# Vuejs  Autocomplete Compopent ([Demo](https://mrabbani.github.io/examples/vue_typeahead))
+# Vuejs  Autocomplete Component ([Demo](https://mrabbani.github.io/examples/vue_typeahead))
 
 Hope your are familiar with [node](http://nodejs.org) and able to compile [vuejs](https://vuejs.org/v2/guide/components.html) component.
 
